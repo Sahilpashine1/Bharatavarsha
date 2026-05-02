@@ -1,16 +1,52 @@
-# React + Vite
+# Bharatavarsha: An Interactive History
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Bharatavarsha](public/vite.svg)
 
-Currently, two official plugins are available:
+**Bharatavarsha** is an immersive, interactive, and comprehensive educational platform that takes users on a cinematic journey through the history of the Indian subcontinent—from the formation of the Earth to 1946. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Key Features
 
-## React Compiler
+- **Interactive Timeline**: Scroll through the epic epochs and yugas. Witness the continuous flow of history.
+- **Character Explorer**: Dive deep into the lives of the rulers, thinkers, and revolutionaries of India—from ancient sages and kings like Ashoka to modern leaders like Gandhi.
+- **Battle Explorer**: Interactive maps detailing historic conflicts (e.g., Kalinga, Panipat, Plassey).
+- **Dynamic Maps**: Watch the borders of empires expand and collapse over millennia using interactive GeoJSON map layers.
+- **Bloodlines & Family Trees**: Track the genealogies of major dynasties such as the Mauryas, Guptas, Mughals, and Marathas.
+- **Interactive Quizzes**: Test your knowledge of Indian history across different eras.
+- **Cinematic 3D UI**: Built with stunning 3D elements, glassmorphism, and gold accents to visualize history like never before.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend**: React 19, React Router DOM
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS 4, CSS animations
+- **3D & Graphics**: Three.js, React Three Fiber (`@react-three/fiber`), Drei (`@react-three/drei`)
+- **Animations**: Framer Motion, GSAP
+- **Mapping**: Leaflet, React-Leaflet, D3-Geo, Turf.js, TopoJSON
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Local Development & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Sahilpashine1/Bharatavarsha.git
+   cd Bharatavarsha
+   ```
+
+2. **Install dependencies:**
+   Ensure you have Node.js installed, then run:
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 📜 Goal
+
+The goal of this project is to make learning Indian history a mesmerizing and visually stunning experience rather than just reading text. By combining high-performance modern web technologies with powerful 3D graphics and interactive maps, this platform allows users to vividly experience the true Saga of Bharat.
